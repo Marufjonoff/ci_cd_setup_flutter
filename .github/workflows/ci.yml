@@ -20,7 +20,7 @@ jobs:
       - run: flutter analyze
       - run: flutter test
 
-  build_appbundle:
+  build:
     name: Build Flutter (Android)
     needs: [flutter_test]
       runs_on: ubuntu-latest
