@@ -35,6 +35,7 @@ jobs:
         - run: flutter pub get
         - run: flutter clean
         - run: flutter build ios
+
   build_appbundle:
     name: Build Flutter (Android)
     needs: [flutter_test]
